@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                 telefonos = telefonos,
                 localizado = localizado,
                 articulos = articulos,
-                color = color,
+                colorProducto = color,
                 precio = precio,
                 fechaEntrega = fechaEntrega,
                 nota = nota,
@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
         telefonos: String,
         localizado: String,
         articulos: String,
-        color: String,
+        colorProducto: String,
         precio: String,
         fechaEntrega: String,
         nota: String,
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
         dibujarCampo("TELÉFONOS", telefonos)
         dibujarCampo("LOCALIZADO", localizado)
         dibujarCampo("ARTÍCULOS", articulos)
-        dibujarCampo("COLOR", color)
+        dibujarCampo("COLOR", colorProducto)
         dibujarCampo("PRECIO", precio)
         dibujarCampo("FECHA DE ENTREGA", fechaEntrega)
         dibujarCampo("NOTA", nota)
